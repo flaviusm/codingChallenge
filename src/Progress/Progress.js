@@ -6,7 +6,6 @@ import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { gql } from '@apollo/client';
 
 
-// Finally we'll embed it all in an SVG
 function BarGraph(props) {
 
     const [months, setMonths] = useState ([
